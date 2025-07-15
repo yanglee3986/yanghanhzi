@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集 | 个人博主</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CSS部分将在下面提供 */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>我的创意空间</h1>
+                <p>设计师 & 博主</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#portfolio">作品集</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#blog">博客</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>展示我的创意世界</h2>
+            <p>欢迎来到我的个人作品展示空间，这里汇集了我的设计、开发和写作成果。</p>
+            <a href="#portfolio" class="btn">查看作品</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">我的作品集</h2>
+            <div class="portfolio-filter">
+                <button class="active" data-filter="all">全部</button>
+                <button data-filter="design">设计</button>
+                <button data-filter="development">开发</button>
+                <button data-filter="writing">写作</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- 作品项目1 -->
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://via.placeholder.com/400x300" alt="设计项目1">
+                    <div class="portfolio-overlay">
+                        <h3>品牌设计</h3>
+                        <p>为某公司设计的品牌标识系统</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+                
+                <!-- 作品项目2 -->
+                <div class="portfolio-item" data-category="development">
+                    <img src="https://via.placeholder.com/400x300" alt="开发项目1">
+                    <div class="portfolio-overlay">
+                        <h3>响应式网站</h3>
+                        <p>使用HTML, CSS和JavaScript开发的响应式网站</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+                
+                <!-- 作品项目3 -->
+                <div class="portfolio-item" data-category="writing">
+                    <img src="https://via.placeholder.com/400x300" alt="写作项目1">
+                    <div class="portfolio-overlay">
+                        <h3>技术博客</h3>
+                        <p>关于现代Web开发的技术文章系列</p>
+                        <a href="#" class="portfolio-link">阅读文章</a>
+                    </div>
+                </div>
+                
+                <!-- 作品项目4 -->
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://via.placeholder.com/400x300" alt="设计项目2">
+                    <div class="portfolio-overlay">
+                        <h3>UI/UX设计</h3>
+                        <p>移动应用的用户界面和用户体验设计</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+                
+                <!-- 作品项目5 -->
+                <div class="portfolio-item" data-category="development">
+                    <img src="https://via.placeholder.com/400x300" alt="开发项目2">
+                    <div class="portfolio-overlay">
+                        <h3>Web应用</h3>
+                        <p>使用React构建的单页面应用</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+                
+                <!-- 作品项目6 -->
+                <div class="portfolio-item" data-category="writing">
+                    <img src="https://via.placeholder.com/400x300" alt="写作项目2">
+                    <div class="portfolio-overlay">
+                        <h3>创意写作</h3>
+                        <p>短篇小说集</p>
+                        <a href="#" class="portfolio-link">阅读作品</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">关于我</h2>
+                <p>我是一名充满激情的设计师和开发者，热爱创造美观且功能强大的数字体验。拥有5年以上的行业经验，我专注于将创意想法转化为现实。</p>
+                <p>在我的博客中，我分享设计技巧、开发经验和创意思考过程。我相信持续学习和分享知识是成长的关键。</p>
+                <div class="skills">
+                    <h3>我的技能</h3>
+                    <ul>
+                        <li>UI/UX设计</li>
+                        <li>前端开发 (HTML, CSS, JavaScript)</li>
+                        <li>响应式设计</li>
+                        <li>内容创作</li>
+                        <li>品牌设计</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400x500" alt="我的照片">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-preview">
+        <div class="container">
+            <h2 class="section-title">最新博客文章</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://via.placeholder.com/600x400" alt="博客文章1">
+                    <div class="blog-content">
+                        <h3>设计思维入门</h3>
+                        <p class="blog-meta">发布于2023年5月15日 | 设计</p>
+                        <p>探索设计思维的基本原则及其在解决问题中的应用...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="https://via.placeholder.com/600x400" alt="博客文章2">
+                    <div class="blog-content">
+                        <h3>CSS Grid实战指南</h3>
+                        <p class="blog-meta">发布于2023年4月28日 | 开发</p>
+                        <p>学习如何使用CSS Grid创建复杂的布局结构...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="https://via.placeholder.com/600x400" alt="博客文章3">
+                    <div class="blog-content">
+                        <h3>创意写作技巧</h3>
+                        <p class="blog-meta">发布于2023年4月10日 | 写作</p>
+                        <p>分享我多年来积累的提高写作创造力的方法...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn">查看所有文章</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>获取联系</h3>
+                    <p>如果您对我的工作感兴趣或有任何问题，请随时联系我。</p>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-envelope"></i> email@example.com</li>
+                        <li><i class="fas fa-phone"></i> +86 123 4567 8910</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 中国，上海</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="主题">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="您的消息" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 我的创意空间. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script>
+        // 简单的作品筛选功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.portfolio-filter button');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // 更新活动按钮
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    const portfolioItems = document.querySelectorAll('.portfolio-item');
+                    
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // 平滑滚动
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
